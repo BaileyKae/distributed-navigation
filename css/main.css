@@ -1,6 +1,6 @@
 html {
   box-sizing: border-box;
-  font-family: sans-sans-serif;
+  font-family: sans-serif;
   line-height: 1.5;
   background-color: #fff;
 }
@@ -17,7 +17,7 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 1rem;
-  margins: .5rem;
+  margin: .5rem;
   font-size: 1.125rem;
 }
 
@@ -52,4 +52,14 @@ nav a, nav a:visited {
   padding: .75em 1em .6em;
   font-family: sans-serif;
   color: #0074d9;
+}
+
+nav a:hover, nav a:focus {
+  background-color: #0074d9;
+  color: #fff;
+  border-radius: 5px;
+}
+
+body {
+  margin: 0;
 }
